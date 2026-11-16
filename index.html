@@ -1,1 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Atmos Weather</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --border: #dadce0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #8ab4f8;
+                --text: #e8eaed;
+                --text-secondary: #9aa0a6;
+                --bg: #202124;
+                --bg-secondary: #303134;
+                --border: #5f6368;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: var(--text);
+            background: var(--bg);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin: 32px 0 16px;
+            color: var(--text);
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            margin: 20px 0 12px;
+            color: var(--text);
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        ul,
+        ol {
+            margin: 0 0 16px 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background: var(--bg-secondary);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .contact-box {
+            background: var(--bg-secondary);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 24px;
+        }
+
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+
+        .contact-box strong {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.95rem;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 6px 12px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+            background: var(--bg-secondary);
+            text-decoration: none;
+        }
+
+        .nav-links a.active {
+            color: var(--primary);
+            background: var(--bg-secondary);
+            font-weight: 600;
+        }
+
+        .badge-trader {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 10px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-radius: 6px;
+            background: #e8f0fe;
+            color: #1a73e8;
+            margin-bottom: 12px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .badge-trader {
+                background: #1e3a5f;
+                color: #8ab4f8;
+            }
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-links">
+            <a href="https://sumitkahar992.github.io/atmos_weather_termsofservice/" class="active">Terms of Service</a>
+            <a href="https://sumitkahar992.github.io/atmos_weather_privacy/">Privacy Policy</a>
+        </nav>
+
+        <h1>Terms of Service</h1>
+        <p class="last-updated">Last Updated: November 16, 2026</p>
+
+        <div class="highlight-box">
+            <p>Please read these Terms of Service ("Terms") carefully before using <strong>Atmos Weather</strong>
+                (<code>io.github.atmosweather</code>, "the App"). By downloading, installing, or using the App, you agree
+                to be bound by these Terms.</p>
+        </div>
+
+        <h2>1. Description of Service</h2>
+        <p>Atmos Weather is an Android weather application providing current weather conditions, hourly and multi-day
+            forecasts, air quality index (AQI), UV index, precipitation, wind/pressure metrics, weather alerts, and
+            home-screen widgets.</p>
+        <ul>
+            <li><strong>Free Tier:</strong> Ad-free weather experience, up to <strong>4 saved locations</strong>,
+                current conditions and hourly/multi-day forecasts, location search, daily weather notifications/alerts,
+                and standard light/dark/system themes with the default color palette and weather icon style.</li>
+            <li><strong>Paid / Pro Features ("Atmos+" / Atmos PRO / Atmos ULTRA):</strong> Unlocks unlimited saved
+                locations, configurable home-screen weather widgets, all premium color palettes and weather icon styles,
+                local JSON Backup &amp; Restore, and additional premium features as offered in your installed version of
+                the App.</li>
+        </ul>
+
+        <h2>2. Eligibility &amp; Acceptance</h2>
+        <p>You confirm that you meet the minimum digital consent age in your jurisdiction (at least 13 years old, with
+            parental or guardian consent if under 18) and will use the App in compliance with applicable laws.</p>
+
+        <div class="badge-trader">EU Digital Services Act (DSA) Compliance</div>
+        <h2>3. Trader Status &amp; EU/UK Regulatory Disclosures</h2>
+        <p>In accordance with the <strong>European Union Digital Services Act (Regulation (EU) 2022/2065, "DSA")</strong>
+            (Articles 30 and 31), the EU Consumer Rights Directive (Directive 2011/83/EU), and the <strong>UK Digital
+                Markets, Competition and Consumers Act 2024</strong>:</p>
+
+        <h3>3.1 Trader Declaration</h3>
+        <p><strong>Atmos Weather</strong> (<code>io.github.atmosweather</code>) is published, distributed, and operated
+            by <strong>Sumit Kahar</strong>, acting as an individual commercial developer / <strong>Trader</strong> in
+            relation to the App and any paid features, subscriptions, or digital services offered through Google Play.</p>
+
+        <h3>3.2 Self-Certification of Compliance (DSA Article 30(1)(e))</h3>
+        <p>The developer self-certifies that Atmos Weather and all digital content or services offered through Google
+            Play comply with applicable rules of European Union law and mandatory consumer protection standards.</p>
+
+        <h3>3.3 Contact and Traceability</h3>
+        <p>Full trader identification details (legal name, geographical postal address, telephone number, and support
+            email) are permanently maintained in Section 17 ("Contact Us &amp; Legal Notice / Impressum") of these Terms
+            and displayed on the Google Play Store listing for users in the EEA and the United Kingdom.</p>
+
+        <h2>4. User Accounts &amp; Privacy</h2>
+        <p>Atmos Weather does not require user account registration. Local storage, third-party weather/location/analytics
+            services, permissions, and privacy rights are governed by our
+            <a href="https://sumitkahar992.github.io/atmos_weather_privacy/">Privacy Policy</a>.</p>
+
+        <h2>5. Purchases, Subscriptions &amp; Consumer Rights</h2>
+
+        <h3>5.1 Plans &amp; Pricing</h3>
+        <p>Atmos Weather offers optional auto-renewing <strong>Atmos+</strong> subscriptions on <strong>Monthly</strong>
+            (including a 7-day free trial for eligible new subscribers) and <strong>Yearly</strong> billing cycles,
+            processed via Google Play Billing and managed through RevenueCat. Exact localized pricing, billing cycles,
+            trial eligibility, and included benefits are displayed in the App and on Google Play's checkout screen before
+            you confirm a purchase.</p>
+
+        <h3>5.2 Auto-Renewal &amp; Cancellation</h3>
+        <ul>
+            <li>Recurring subscriptions automatically renew via Google Play unless cancelled at least 24 hours before the
+                end of the current trial or billing period.</li>
+            <li>Manage or cancel subscriptions anytime in <strong>Google Play Store &gt; Payments &amp; subscriptions
+                    &gt; Subscriptions</strong>.</li>
+        </ul>
+
+        <h3>5.3 Refunds &amp; Google Play Billing</h3>
+        <p>Google Play processes all payments as merchant of record. Refund requests are handled under the
+            <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Google Play
+                Refund Policy</a> and mandatory consumer laws.</p>
+
+        <h3>5.4 Statutory Right of Withdrawal (EEA &amp; UK Consumers)</h3>
+        <p>If you reside in the EEA or the United Kingdom, statutory consumer law generally grants a 14-day right of
+            withdrawal, subject to the statutory digital content/services exception under <strong>Art. 16(m) of Directive
+                2011/83/EU</strong> when immediate performance begins with prior express consent. Withdrawals or refunds
+            may be requested through
+            <a href="https://play.google.com/store/account/orderhistory" target="_blank" rel="noopener">Google Play Order
+                History</a> or by contacting
+            <a href="mailto:sumitkahar073@gmail.com">sumitkahar073@gmail.com</a> for verification support.</p>
+
+        <h3>5.5 Legal Guarantee of Conformity</h3>
+        <p>Under Directive (EU) 2019/770 and equivalent UK consumer law (including the Consumer Rights Act 2015 and the
+            Digital Markets, Competition and Consumers Act 2024), consumers benefit from statutory legal guarantees of
+            conformity for digital content and digital services.</p>
+
+        <h2>6. User Data &amp; Acceptable Use</h2>
+        <p>You retain full ownership of your saved location lists and any local backup files you export from Atmos
+            Weather. You agree not to misuse the App, violate laws, abuse third-party weather/search APIs, circumvent
+            billing or entitlement controls, or reverse-engineer the App except where permitted by mandatory law.</p>
+
+        <h2>7. Intellectual Property</h2>
+        <p>Atmos Weather, including its code, user interface design, and branding, belongs to <strong>Sumit Kahar</strong>
+            (subject to open-source component licenses disclosed in-app under Settings &gt; About &gt; Open Source
+            License). You are granted a limited, non-exclusive, non-transferable, revocable license to use the App for
+            personal, non-commercial purposes.</p>
+
+        <h2>8. Third-Party Services &amp; Weather Data</h2>
+        <p>The App relies on third-party platforms and data providers (including WeatherAPI.com, Mapbox, Google Play
+            Services, Firebase, and RevenueCat, as detailed in our
+            <a href="https://sumitkahar992.github.io/atmos_weather_privacy/">Privacy Policy</a>) governed by their
+            respective terms. Weather data, forecasts, air quality values, and alerts are provided for general
+            informational purposes only and may be delayed, incomplete, or inaccurate.</p>
+
+        <h2>9. Disclaimers</h2>
+        <p>Except to the extent prohibited by mandatory applicable law (including the statutory legal guarantees of
+            conformity in Section 5.5), the App and all weather information are provided <strong>"AS IS"</strong> and
+            <strong>"AS AVAILABLE"</strong> without express or implied warranties. <strong>Do not rely on Atmos Weather
+                for life-safety, aviation, marine, medical, or emergency decisions</strong>; always consult official
+            government weather and emergency authorities during severe weather.</p>
+
+        <h2>10. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by law, the developer is not liable for indirect, incidental, or consequential
+            damages, and aggregate liability is capped at the amount paid by you for the App in the preceding 12 months.
+            <strong>Nothing in these Terms excludes or limits liability that cannot legally be excluded under mandatory
+                local law.</strong></p>
+
+        <h2>11. Consumer Dispute Resolution</h2>
+        <p>Please contact us directly at <a href="mailto:sumitkahar073@gmail.com">sumitkahar073@gmail.com</a> to resolve
+            any concern amicably. We are neither obligated nor committed to participate in consumer arbitration
+            proceedings, without prejudice to your mandatory statutory rights.</p>
+
+        <h2>12. Termination</h2>
+        <p>You may stop using and uninstall the App at any time. We may suspend or terminate access for material breach
+            of these Terms or upon discontinuing the App with reasonable prior notice, preserving mandatory statutory
+            consumer refund rights where applicable.</p>
+
+        <h2>13. Changes to These Terms</h2>
+        <p>We may update these Terms periodically by posting changes on this page with a new "Last Updated" date and
+            providing reasonable notice for material changes.</p>
+
+        <h2>14. Governing Law &amp; Jurisdiction</h2>
+        <p>These Terms are governed by the laws of India, without prejudice to mandatory consumer protection laws and
+            competent courts in your country of residence if you reside in the EU, EEA, or United Kingdom.</p>
+
+        <h2>15. Severability</h2>
+        <p>If any provision is held invalid or unenforceable, the remaining provisions continue in full force.</p>
+
+        <h2>16. Interpretation</h2>
+        <p>Headings are for convenience only and do not limit the scope of any section.</p>
+
+        <h2>17. Contact Us &amp; Legal Notice (Impressum)</h2>
+        <p>For customer support, legal notices, or formal trader contact under EU/UK consumer and DSA rules:</p>
+
+        <div class="contact-box">
+            <p><strong>App Name:</strong> Atmos Weather</p>
+            <p><strong>Package Name:</strong> io.github.atmosweather</p>
+            <p><strong>Developer / Trader:</strong> Sumit Kahar (Individual Commercial Developer / Trader)</p>
+            <p><strong>Trader Status:</strong> Declared Trader under EU Digital Services Act (Regulation (EU) 2022/2065)</p>
+            <p><strong>Legal Address:</strong> 438, Kaana Paar, Ramnagar, Dhani Bazar, Pharenda, Maharajganj - 273161, India</p>
+            <p><strong>Telephone:</strong> <a href="tel:+919151382162">+91 9151382162</a></p>
+            <p><strong>Support Email:</strong> <a href="mailto:sumitkahar073@gmail.com">sumitkahar073@gmail.com</a></p>
+            <p><strong>Privacy Policy:</strong> <a href="https://sumitkahar992.github.io/atmos_weather_privacy/">View Privacy Policy</a></p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Atmos Weather &mdash; Sumit Kahar. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
 
